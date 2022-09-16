@@ -5,8 +5,7 @@
     "@bespoken-api/nlu": "0.5.1",
     "@bespoken-api/nlp": "0.5.1",
     "@bespoken-api/tts": "0.5.1",
-    "csv": "^6.2.0",
-    "words-to-numbers": "git+https://github.com/moisesnandres/words-to-numbers.git"
+    "csv": "^6.2.0"
   },
   "name": "accuracy-tester",
   "private": true,
