@@ -1,0 +1,103 @@
+{
+  "customer": "bespoken",
+  "devices": {
+    "azure": {
+      "settings": {
+        "apiKey": "${AZURE_API_KEY}",
+        "class": "@bespoken-api/nlp/lib/azure-recognizer"
+      }
+    },
+    "dialogflow": {
+      "settings": {
+        "agentId": "51d68655-9451-4fa5-a8ca-5aec988fb92f",
+        "class": "@bespoken-api/nlu/lib/dialogflow-cx-nlu",
+        "location": "global",
+        "projectId": "jpk-dialogflowcx-trial"
+      }
+    },
+    "lex": {
+      "settings": {
+        "botId": "K59IQDPNIG",
+        "botAliasId": "TSTALIASID",
+        "class": "@bespoken-api/nlu/lib/lex-nlu",
+        "region": "us-east-1"
+      }
+    },
+    "transcribe": {
+      "settings": {
+        "class": "@bespoken-api/nlp/lib/transcribe-recognizer",
+        "region": "us-east-1",
+        "accessKeyId": "${AWS_ACCESS_KEY_ID}",
+        "secretAccessKey": "${AWS_SECRET_ACCESS_KEY}"
+      }
+    }
+  },
+  "voices": ["en-US-Wavenet-D", "Brian-neural", "Joanna-neural", "Joey-neural", "Kajal-neural", "Kevin-neural", "Pedro-neural", "Zhiyu-neural", "Lupe-neural"],
+  "accentedVoices": {
+    "spanish": ["Lupe-neural", "Pedro-neural"]
+  },
+  "homophones": {
+    "w f 9 o f 3 7": ["wf9of37", "wf9of37"],
+    "o j w o o c r": ["ojwoocr"],
+    "j w o o c r": ["jwoocr"],
+    "l x 8 3 6": ["lx836"],
+    "7 3 1 0 7": ["73107"],
+    "5 5 3 4": ["5534"],
+    "2 4 0 7": ["2407"],
+    "2 4 6 8": ["2468"],
+    "9 0 3 7": ["9037"],
+    "a k n a": ["akna"],
+    "g m u": ["gmu"],
+    "c k i": ["cki"],
+    "5 4 c": ["54c"],
+    "k i 6": ["ki6"],
+    "m t u": ["m. t. u.", "mtu"],
+    "f f p": ["ffp"],
+    "w f 9": ["wf9"],
+    "a l x": ["alx", "alex"],
+    "d y s": ["dys"],
+    "q 9 a": ["q9a"],
+    "n 8 i": ["n8i"],
+    "8 6 7": ["867"],
+    "8 3 6": ["836"],
+    "0 j": ["o j"],
+    "3 7": ["37"],
+    "o f": ["of"],
+    "g m": ["gm"],
+    "q 9": ["q9"],
+    "v y": ["vy"],
+    "5 4": ["54"],
+    "w f": ["wf"],
+    "u": ["you", "your"],
+    "0": ["oh", "zero"],
+    "v": ["b", "me"],
+    "y": ["why"],
+    "z": ["said", "set"],
+    "4": ["quattro"]
+  },
+  "phonemes": {
+    "spanish": {
+      "q": "kiu.",
+      "z v y": "zeth bi uai",
+      "g m u 8 6 7": "yi em yu eith six seven",
+      "m t u 7 3 1 0 7": "em ti yu seven tri uan ciro seven",
+      "5 4 c k i 6": "faiv for si. kei. ai. six",
+      "f f p 5 5 3 4": "ef ef pi faiv faiv tri for",
+      "a l x 8 3 6": "ei. el. ex. eith tri six",
+      "2 4 6 8 d y s": "tu for six eith di uai es",
+      "q 9 a k n 8 i": "kiu. nain ei kei en eith ai",
+      "reservation": "reserbeishon",
+      "reservations": "reserbeishons",
+      "book": "buk",
+      "flight": "flait",
+      "make": "meik",
+      "w f 9 o f 3 7": "dabliu ef nain ou ef tri seven",
+      "0 j w o o c r": "ciro yei dabliu ou ou si ar"
+    }
+  },
+  "interceptor": "./lib/accuracy-interceptor",
+  "job": "Accuracy Testing Solution",
+  "metricsbak": "datadog-metrics",
+  "source": "./lib/accuracy-source.js",
+  "sourceFile": "input/records.csv"
+}
