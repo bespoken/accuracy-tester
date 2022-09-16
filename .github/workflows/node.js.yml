@@ -33,3 +33,6 @@ jobs:
     - name: pnpm install
       run: |
         pnpm install
+    - name: accuracy test
+      run: |
+        pnpm run batch
