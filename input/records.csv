@@ -1,2 +1,21 @@
 UTTERANCE,EXPECTED TRANSCRIPT,VOICEID,UTTERANCE TYPE
 reservations,,,QUERY
+make a reservation,,,QUERY
+book a flight,,,QUERY
+make a flight,,,QUERY
+g m u 8 6 7,,,MEMBER ID
+m t u 7 3 1 0 7,,,MEMBER ID
+5 4 c k i 6,,,MEMBER ID
+f f p 5 5 3 4,,,MEMBER ID
+a l x 8 3 6,,,MEMBER ID
+2 4 6 8 d y s,,,MEMBER ID
+q 9 a k n 8 i,,,MEMBER ID
+w f 9 o f 3 7,,,MEMBER ID
+0 j w o o c r,,,MEMBER ID
+https://drive.google.com/uc?export=download&id=1mDuhuC8T-yaWAa2CFdf6zeh1OF8klN_Z,book a flight,JohnKelvieFan,QUERY
+https://drive.google.com/uc?export=download&id=1xwpfJ0pm8SND4-LLLY7173mzo6aMRBIe,boston,JohnKelvie,DESTINATION
+https://drive.google.com/uc?export=download&id=1PeL-p3YL1b09hMPbBaAa4fu2EzDR-yW2,boston,JohnKelvieFan,DESTINATION
+https://drive.google.com/uc?export=download&id=1j-W0H045dwsGb7LPuJhItwt2ULgfcx-D,m t u 7 3 1 0 7,PierCastaneda,MEMBER ID
+https://drive.google.com/uc?export=download&id=1TEIaq7pcfjNeHG4cazeCfKa7Gl8TsRDo,balance,PierCastaneda,QUERY
+https://drive.google.com/uc?export=download&id=1_T4aXW3UQgmsbBfHrDtmCsc9ytVyHbZI,mileage plus,PierCastaneda,QUERY
+https://drive.google.com/uc?export=download&id=1QUYyb7DX7e5WuyYeMhf6NpLW67YD2WzU,my account,PierCastaneda,QUERY
