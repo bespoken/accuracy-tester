@@ -29,6 +29,11 @@ jobs:
       WATSON_TTS_KEY: ${{ secrets.WATSON_TTS_KEY }}
       WATSON_TTS_INSTANCE_URL: ${{ secrets.WATSON_TTS_INSTANCE_URL }}
       DATADOG_API_KEY: ${{ secrets.DATADOG_API_KEY }}
+      MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
+      MYSQL_USER: ${{ secrets.MYSQL_USER }}
+      MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
+      MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
+      MYSQL_TABLE: ${{ secrets.MYSQL_TABLE }}
     steps:
     - uses: actions/checkout@v3
     - uses: pnpm/action-setup@v2.2.2
