@@ -12,4 +12,4 @@ Run `pnpm run batch`
     - VOICEID: (optional) when using an audio URL use this field to categorized the audio file voice
     - UTTERANCE TYPE: (optional) you can use this field to categorize the utterance (QUERY, DESTINATION, MEMBER ID, etc)
   
-  * The github action will run automatically after the records.csv file has been updated, additionally you can start manually by going to the actions page and select the accuracy-tester workflow.
+  * The github action will run automatically after the records.csv file has been updated, additionally you can start manually by going to the actions page and select the Accuracy Test Runner workflow.
