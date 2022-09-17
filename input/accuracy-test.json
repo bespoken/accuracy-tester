@@ -97,7 +97,7 @@
   },
   "interceptor": "./lib/accuracy-interceptor",
   "job": "Accuracy Testing Solution",
-  "metrics": "datadog-metrics",
+  "metricsbak": "datadog-metrics",
   "source": "./lib/accuracy-source.js",
   "sourceFile": "input/records.csv"
 }
