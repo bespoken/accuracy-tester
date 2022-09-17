@@ -4,6 +4,7 @@
 name: Accuracy Test Runner
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
     paths-ignore:
