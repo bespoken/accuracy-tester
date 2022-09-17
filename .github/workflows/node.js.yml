@@ -6,6 +6,9 @@ name: Accuracy Test Runner
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - '**/README.md'
+      - '**/node.js.yml'
   pull_request:
     branches: [ "main" ]
 
