@@ -1,5 +1,6 @@
 # Overview
-The accuracy tester 
+The accuracy tester assists with evaluating and optimizing the accuracy of ASR and NLU engines.
+
 # Test Definition
 ## Utterance Set
 The utterances are defined in the [records.csv file](input/records.csv).
