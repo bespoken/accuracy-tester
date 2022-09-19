@@ -1,3 +1,5 @@
+# Overview
+The accuracy tester 
 # Test Definition
 ## Utterance Set
 The utterances are defined in the [records.csv file](input/records.csv).
@@ -28,5 +30,13 @@ https://github.com/bespoken/accuracy-tester/blob/main/input/accuracy-test.json#L
 * Run `pnpm run batch`
 
 ## Github Execution
-  
-  * The github action will run automatically after the records.csv file has been updated, additionally you can start manually by going to the actions page and select the Accuracy Test Runner workflow.
+The github action will run automatically after the records.csv file has been updated, additionally you can start manually by going to the actions page and select the Accuracy Test Runner workflow.
+
+# Results
+The results are created as CSV file for each GitHub action run.
+
+Additionally, they can be configured to send data to:
+* CloudWatch
+* DataDog
+* Metabase
+* MySQL 
